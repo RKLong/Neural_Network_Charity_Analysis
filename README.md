@@ -21,7 +21,7 @@ The purpose of this project is to use deep-learning neural networks with the Ten
 * The input data had 25,724 samples and 43 features.
 * The Rectified Linear Unit or ReLU activation function was used for the hidden layers. The Sigmoid is used on the output layer, because the desired output is binary classification.
 
-![D2Compilation](Resources/D2 Compilation.png)
+![D2Compilation](Resources/D2_Compilation.png)
 
 * In compiling, the optimizer used is adam and the loss function is binary_crossentropy.
 * The model's  accuracy is under 75% (as shown in the image below), which is not a satisfying performance to help predict the outcome of the charity donations.
