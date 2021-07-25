@@ -18,12 +18,12 @@ The purpose of this project is to use deep-learning neural networks with the Ten
 ## Compiling, Training, and Evaluating the Model
 
 * This deep-learning neural network model is made of two hidden layers; The first layer had 80, while the second layer had 30.
-* The input data had 25,724 samples and 43 features.
 * The Rectified Linear Unit or ReLU activation function was used for the hidden layers. The Sigmoid is used on the output layer, because the desired output is binary classification.
 
 ![D2Compilation](Resources/D2_Compilation.png)
 
 * In compiling, the optimizer used is adam and the loss function is binary_crossentropy.
+* The model was set to run at 50 epochs.
 * The model's  accuracy is under 75% (as shown in the image below), which is not a satisfying performance to help predict the outcome of the charity donations.
 
 ![D2_Results](Resources/D2_Results.png)
@@ -38,7 +38,7 @@ Several attempts were done to increase the performance of the model. Despite the
 ![Attempt 1](Resources/Attempt1.png)
 
 * Increased the number of neurons for each layer as well as increased the epochs from 50 to 100.
-![Attempt_2](Resources/Attempt2.png)
+![Attempt_2](Resources/Attempt2.png
 
 * Changed the activation from ReLu to Tanh
 ![Attempt_3](Resources/Attempt3.png)
