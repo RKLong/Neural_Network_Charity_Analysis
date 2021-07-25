@@ -21,7 +21,7 @@ The purpose of this project is to use deep-learning neural networks with the Ten
 * The input data had 25,724 samples and 43 features.
 * The Rectified Linear Unit or ReLU activation function was used for the hidden layers. The Sigmoid is used on the output layer, because the desired output is binary classification.
 
-![D2Compilation](Resources/D2Compilation.png)
+![D2Compilation](Resources/D2 Compilation.png)
 
 * In compiling, the optimizer used is adam and the loss function is binary_crossentropy.
 * The model's  accuracy is under 75% (as shown in the image below), which is not a satisfying performance to help predict the outcome of the charity donations.
@@ -35,16 +35,14 @@ Several attempts were done to increase the performance of the model. Despite the
 ![Dropping_Organization](Resources/Dropping_Organization.png)
 
 * Increased the number of hidden layers and modified the number of neurons for each layer.
-![Attempt 1](Resources/Attempt_1.png)
+![Attempt 1](Resources/Attempt1.png)
 
 * Increased the number of neurons for each layer as well as increased the epochs from 50 to 100.
-![Attempt_2](Resources/Attempt_2.png)
+![Attempt_2](Resources/Attempt2.png)
 
 * Changed the activation from ReLu to Tanh
-![Attempt_3](Resources/Attempt_3.png)
+![Attempt_3](Resources/Attempt3.png)
 
 # Summary
 
-The deep learning neural network model did not reach the target of 75% accuracy. The loss in accuracy might be because the fact the model overfitted. To increase accuracy, more data could be added OR more features removed to further optimize the neural network.
-
-Since the desired output is binary classification, a supervised learning model like the Random Forest Classifier might be able to do the same thing and yield better accuracy results. Aside from performing faster thab neural networks, using this/these models instead could have avoided the data from overfitting.
+The deep learning neural network model did not reach the target of 75% accuracy. The loss in accuracy might be because the fact the model overfitted. To increase accuracy, more data could be added OR more features removed to further optimize the neural network. Since the desired output is binary classification, a supervised learning model like the Random Forest Classifier might be able to do the same thing and yield better accuracy results. Aside from performing faster thab neural networks, using this model instead could have avoided the data from overfitting.
