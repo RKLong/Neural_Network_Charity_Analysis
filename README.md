@@ -38,10 +38,10 @@ Several attempts were done to increase the performance of the model. Despite the
 ![Attempt 1](Resources/Attempt_1.png)
 
 * Increased the number of neurons for each layer as well as increased the epochs from 50 to 100.
-![Attempt_2](Attempt_2.png)
+![Attempt_2](Resources/Attempt_2.png)
 
 * Changed the activation from ReLu to Tanh
-![Attempt_3](Attempt_3.png)
+![Attempt_3](Resources/Attempt_3.png)
 
 # Summary
 
